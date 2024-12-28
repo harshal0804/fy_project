@@ -1,0 +1,45 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-async-storage/root": "github:react-native-async-storage/async-storage",
+    "@react-native-community/cli": "latest",
+    "@react-native-google-signin/google-signin": "^13.1.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "expo": "~52.0.19",
+    "expo-barcode-scanner": "^12.9.3",
+    "expo-camera": "^16.0.10",
+    "expo-google-sign-in": "^10.2.0",
+    "expo-linear-gradient": "^14.0.1",
+    "expo-router": "^4.0.13",
+    "expo-status-bar": "~2.0.0",
+    "nodemailer": "^6.9.16",
+    "react": "18.3.1",
+    "react-native": "^0.76.5",
+    "react-native-camera": "^4.2.1",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-maps": "^1.20.1",
+    "react-native-permissions": "^5.2.1",
+    "react-native-qrcode-scanner": "^1.5.5",
+    "react-native-reanimated": "^3.16.5",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
